@@ -35,7 +35,8 @@
     font-weight:bolder;
 }
 
-.link:hover{
+.link:hover,
+.banner-nav a.active{
 color: orangered;
 }
 
@@ -100,6 +101,7 @@ color: orangered;
 .product-cards span,
 #blog-span {
     color: red;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .product-cards:hover{
