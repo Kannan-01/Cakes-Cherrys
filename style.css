@@ -321,9 +321,14 @@ color: orangered;
 }
 
 .icon-set .icons {
-    font-size: 20px;
+    font-size: 25px;
 }
 
+.socials .icons:hover i {
+    color: white;
+    animation:heartBeat;
+    animation-duration: 1s;
+}
 
 /* html styling */
 html {
